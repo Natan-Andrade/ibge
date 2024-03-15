@@ -45,40 +45,34 @@
     </nav>
 
     <div class="container">
-        <!-- <h1 class="text-center">Pesquisa nacional</h1> -->
-        <p class="text-center"></p>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pesquisa Nacional</h5>
-                        <p class="card-text">Em parceria com a Organização Mundial da Saúde (OMS), o Instituto
-                            Brasileiro de Geografia e Estatística (IBGE) está conduzindo uma pesquisa nacional sobre a
-                            dengue. Este esforço conjunto tem como objetivo compreender melhor a propagação e o impacto
-                            da dengue em todo o país.
-                            <hr>
-                            Juntos, podemos trabalhar para combater a propagação da dengue e promover a saúde e o
-                            bem-estar de nossas comunidades.
-                        </p>
-                    </div>
+        <h2 class="text-left mb-4"> </h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Selecione a imagem que representa um animal dengoso:</label>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="animal" id="opcao1" value="cachorro" disabled>
+                    <label class="form-check-label" for="opcao1">
+                        <img src="pernilongo.jpg" width="200" alt="pernilongo">
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="animal" id="opcao2" value="gato">
+                    <label class="form-check-label" for="opcao2">
+                        <img src="macaquinho-triste.png" width="200" alt="macaco1">
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="animal" id="opcao3" value="urso">
+                    <label class="form-check-label" for="opcao3">
+                        <img src="macaquinho-dengoso.jpg" width="200" alt="macaco2">
+                    </label>
                 </div>
             </div>
-        </div>
-        <p class="text-center"></p>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Ajude-nos a Combater a Dengue</h5>
-                        <p class="card-text">Você deseja contribuir para a luta contra a dengue e ajudar a proteger sua
-                            comunidade? Então, convidamos você a preencher nosso breve formulário sobre ações
-                            preventivas e sintomas da dengue.
-                        </p>
-                        <a href="formulario.html" class="btn btn-primary">Preencher Formulário</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <button type="submit" class="btn btn-primary">Próximo</button>
+        </form>
+        
     </div>
 </body>
 

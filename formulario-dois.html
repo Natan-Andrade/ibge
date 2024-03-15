@@ -48,49 +48,44 @@
         <h2 class="text-left mb-4"></h2>
         <form>
             <div class="mb-3">
-                <label for="pergunta1" class="form-label">1. Você já teve dengue antes?</label>
-                <select class="form-select" id="pergunta1">
-                    <option selected disabled>Selecione uma opção</option>
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
-                </select>
+                <label class="form-label">Selecione os sintomas que tem sentido nos últimos 15 dias:</label>
             </div>
             <div class="mb-3">
-                <label for="pergunta2" class="form-label">2. Você costuma eliminar recipientes que acumulam água parada
-                    em sua casa?</label>
-                <select class="form-select" id="pergunta2">
-                    <option selected disabled>Selecione uma opção</option>
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
-                </select>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="tosse" id="tosse">
+                    <label class="form-check-label" for="tosse">
+                        Tosse
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="diarreia" id="diarreia">
+                    <label class="form-check-label" for="diarreia">
+                        Diarreia
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="dores_estomago" id="dores_estomago">
+                    <label class="form-check-label" for="dores_estomago">
+                        Dores de Estômago
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="fadiga" id="fadiga">
+                    <label class="form-check-label" for="fadiga">
+                        Fadiga
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="cansaco" id="cansaco">
+                    <label class="form-check-label" for="cansaco">
+                        Cansaço
+                    </label>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="pergunta3" class="form-label">3. Você utiliza repelente regularmente?</label>
-                <select class="form-select" id="pergunta3">
-                    <option selected disabled>Selecione uma opção</option>
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="pergunta4" class="form-label">4. Você sabe reconhecer os sintomas da dengue?</label>
-                <select class="form-select" id="pergunta4">
-                    <option selected disabled>Selecione uma opção</option>
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="pergunta5" class="form-label">5. Você conhece as medidas de prevenção contra a
-                    dengue?</label>
-                <select class="form-select" id="pergunta5">
-                    <option selected disabled>Selecione uma opção</option>
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
-                </select>
-            </div>
-            <a href="formulario-dois.html" class="btn btn-primary">Próximo</a>
+            <a href="formulario-tres.html" class="btn btn-primary">Próximo</a>
         </form>
+
+
     </div>
 </body>
 
